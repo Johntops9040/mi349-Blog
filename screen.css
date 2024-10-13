@@ -3,7 +3,7 @@
 body {
     background: #fff;
     font-family: Arial, Helvetica, sans-serif;
-    border-top: 20 px solid #252424;
+    border-top: 50px solid #252424;
     margin: 0;
     color: #252424;
     font-weight: bold;
@@ -15,5 +15,8 @@ a.active {
 
 nav{
     font-size: large;
-    position: top;
+}
+
+img{
+    width: 100%;
 }
