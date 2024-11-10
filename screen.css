@@ -1,25 +1,42 @@
 /* Add screen styles below */
 
 body {
-    background: #fff;
-    font-family: Arial, Helvetica, sans-serif;
-    border-top: 50px solid #252424;
+
+    background: #fff;  
     margin: 0;
-    padding: 40px;
+    padding: 0;
     color: #252424;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+section{
+    display: flex;
+}
+
 article{
-    margin:60px ;
+    margin:25px;
+    padding: 25px;
+}
+article:nth-of-type(1){
+    flex: 3;
+
+
+}
+article:nth-of-type(2){
+    flex: 3;
+
+}
+
+h2{
+    text-align: center;
 }
 p{
+    text-align: center;
     line-height: 1.8 cm;
 }
 
 img{
-    position: relative;
-    left: 250px;
+   float: right;
 }
 
 a.active {
@@ -27,12 +44,23 @@ a.active {
 }
 
 header{
+    
+    Border: 25px solid #252424;
+    padding: 0;
     text-align: center;
     position: sticky;
     top: 0;
+    
 }
 nav{
     font-size: large;
-    color: #fff;
+    
+}
+
+a :visited{
+    color: white;
+}
+a:active{
+ color: white;
 }
 
