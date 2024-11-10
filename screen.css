@@ -10,6 +10,9 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+article{
+    margin:60px ;
+}
 p{
     line-height: 1.8 cm;
 }
@@ -23,7 +26,13 @@ a.active {
     font-weight: bold;
 }
 
+header{
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
 nav{
     font-size: large;
+    color: #fff;
 }
 
