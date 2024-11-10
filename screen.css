@@ -5,8 +5,18 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     border-top: 50px solid #252424;
     margin: 0;
+    padding: 40px;
     color: #252424;
-    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p{
+    line-height: 1.8 cm;
+}
+
+img{
+    position: relative;
+    left: 250px;
 }
 
 a.active {
