@@ -2,11 +2,11 @@
 
 body {
 
-    background: #fff;  
+    background: #D3D0CB;  
     margin: 0;
     padding: 0;
-    color: #252424;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #393E41;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 section {
@@ -23,11 +23,16 @@ article:nth-of-type(1){
 article:nth-of-type(2){
     flex: 3;
 }
+.Form{
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
 h1{
     flex: 1000px;
-    color: #fff;
+    color: #D3D0CB;
 }
 h2{
+    font-size: 20pt;
     text-align: center;
 }
 p{
@@ -39,10 +44,11 @@ img{
    float: right;
 }
 a.link{
-    color: #fff;
+    text-decoration: none;
+    color: #D3D0CB;
 }
 a.active {
-    color: #fff;
+    color: #587B7F;
     font-weight: bold;
 }
 
@@ -50,7 +56,7 @@ header{
     padding-left: 10px;
     display: flex;
     width: 100%;
-    background-color: #252424;
+    background-color: #1E2019;
     line-height: .8cm;
     position: sticky;
     top: 0;
@@ -62,13 +68,5 @@ nav{
     padding-left: 290px;
     font-size: large;
     
-}
-
-
-a :visited{
-    color: white;
-}
-a:active{
- color: white;
 }
 
