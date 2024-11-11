@@ -35,11 +35,15 @@ h1{
     color: #D3D0CB;
 }
 h2{
-    font-size: 20pt;
+    font-size:35pt;
     text-align: center;
 }
 p{
     line-height: 1.8 cm;
+}
+.AutDat{
+    white-space: pre-wrap;
+    text-align: center;
 }
 ol{
     white-space: pre-wrap;
@@ -61,7 +65,7 @@ figcaption{
    margin: 1pt;
 }
 a{
-    font-size: 30pt;
+    font-size: 25pt;
     padding-left: 10px;
 }
 a.link{
@@ -86,7 +90,7 @@ header{
 }
 nav{
     width: 100%;
-    padding-top: 25px;
+    padding-top: 40px;
     padding-right: 20px;
     text-align: right;
     font-size: large;
