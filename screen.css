@@ -12,6 +12,11 @@ body {
 section {
     display: flex;
 }
+div{
+    margin: 30px;
+    padding: 15px;
+    font-size: 20pt;
+}
 
 article{
     margin: 20px;
@@ -47,6 +52,9 @@ p{
 }
 ol{
     white-space: pre-wrap;
+}
+.Me{
+    border-radius: 30px;
 }
 .Peele{
     border-radius: 20px;
