@@ -17,6 +17,26 @@ div{
     padding: 15px;
     font-size: 20pt;
 }
+.Contact{
+    font-size: 30pt;
+    text-align: center;
+
+}
+input{
+    width: 40%;
+    height: 25pt;
+    border-radius: 25px;
+}
+#contactreason{
+    width: 40%;
+    height: 25pt;
+    border-radius: 25px;
+}
+textarea{
+    width: 50%;
+    height: 100pt;
+    border-radius: 25px;
+}
 
 article{
     margin: 20px;
@@ -54,6 +74,7 @@ ol{
     white-space: pre-wrap;
 }
 .Me{
+    padding: 10px;
     border-radius: 30px;
 }
 .Peele{
